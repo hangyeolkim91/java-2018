@@ -1,0 +1,28 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+
+class Test6 {
+
+	public static void main(String[] args) throws IOException {
+		
+		// πÿ∫Ø(w)∞˙ ≥Ù¿Ã(h)∏¶ ¿‘∑¬πﬁæ∆ ªÔ∞¢«¸¿« ≥–¿Ã(a)±∏«œ±‚
+		// πÿ∫Ø? 10
+		// ≥Ù¿Ã? 20
+		// ≥–¿Ã : 15
+		
+		double w , h, a;
+
+		BufferedReader br = new BufferedReader( new InputStreamReader ( System.in));
+		
+		System.out.print("πÿ∫Ø ?");
+		w = Double.parseDouble(br.readLine());
+		System.out.print("≥Ù¿Ã ?");
+		h = Double.parseDouble(br.readLine());
+
+		a = w*h /2;
+
+		System.out.println("≥–¿Ã : " + a);
+	}
+}
