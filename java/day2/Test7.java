@@ -20,7 +20,7 @@ class Test7 {
 		n3 = sc.nextInt();
 
 
-		// bubble sort
+		
 		int[] ar = new int[3];
 		ar[0] = n1;
 		ar[1] = n2;
