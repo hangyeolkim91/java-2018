@@ -14,14 +14,20 @@ class Test6 {
 		
 		double w , h, a;
 
-		BufferedReader br = new BufferedReader( new InputStreamReader ( System.in));
+		BufferedReader br = new BufferedReader( new InputStreamReader ( System.in ) );
 		
 		System.out.print("πÿ∫Ø ?");
 		w = Double.parseDouble(br.readLine());
 		System.out.print("≥Ù¿Ã ?");
 		h = Double.parseDouble(br.readLine());
 
-		a = w*h /2;
+		a = w * h / 2;
+		/* «¸∫Ø»Ø
+		* int w, h;
+		* a = w * h / 2.0;
+		* a = [(double) w ] * h / 2;
+		*      w∏∏ double∑Œ πŸ≤Ò
+		*/
 
 		System.out.println("≥–¿Ã : " + a);
 	}
