@@ -16,6 +16,8 @@ class Problem4 {
 			totalPrice = price * n * 0.85;
 		}else if( n >= 30 ){
 			totalPrice = price * n * 0.8;
+		}else{
+			totalPrice = price * n*1.0;
 		}
 
 		
