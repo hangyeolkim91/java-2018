@@ -1,0 +1,16 @@
+package com.day3;
+
+
+public class Test7 {
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		// TODO Auto-generated method stub
+		
+		System.out.println("hello Word!");
+		
+		System.out.println("hi");
+		
+		
+	}
+
+}

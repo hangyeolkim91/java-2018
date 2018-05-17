@@ -1,0 +1,32 @@
+package com.day3;
+
+class Test6 {
+
+	public static void main(String[] args) {
+
+		//다중 for (3중)
+		// 3가지 방법
+
+		/*
+		for(int i=0; i<2; i++ ){
+			System.out.println((i*4+2) + "단 \t\t" + (i*4+3) + "단 \t\t" + (i*4+4) + "단 \t\t" + (i*4+5) + "단 \t\t");
+			for(int j=1; j<10; j++){
+				for(int k=0; k<4; k++){
+					System.out.print( (i*4+k+2) + " * " + j + " = " + (i*4+k+2)*j + "\t");
+				}
+				System.out.println();
+			}
+			System.out.println();
+		}
+		*/
+		
+		for( int i=0; i<8; i++){
+			System.out.println((i+2) + "단\t\t");
+			for(int j=1; j<10; j++){
+				
+			}
+		}
+
+		
+	}
+}
