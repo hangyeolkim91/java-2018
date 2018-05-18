@@ -1,0 +1,33 @@
+package com.day4;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//¹è¿­
+		//int num[] = new int[5];
+		int[] num = new int[5];
+		
+		num[0] = 10;
+		num[1] = 20;
+		num[2] = 30;
+		num[3] = 40;
+		num[4] = 50;
+		
+		System.out.println("num[0]: " + num[0]);
+		System.out.println("num[1]: " + num[1]);
+		System.out.println("num[2]: " + num[2]);
+		System.out.println("num[3]: " + num[3]);
+		System.out.println("num[4]: " + num[4]);
+		
+		num[3] = 400;
+		
+		System.out.println("num[3]: " + num[3]);
+		
+		int a = num[0];
+		System.out.println(a);
+		
+	}
+
+}

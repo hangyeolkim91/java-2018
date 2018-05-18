@@ -1,0 +1,60 @@
+package com.day4;
+
+import java.util.Scanner;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+
+		//만년 달력
+		
+		Scanner sc = new Scanner(System.in);
+		
+		// 월별 날짜수를 저장
+		
+		int months[] = {31, 28, 31, 30, 31, 30 ,31, 31, 30, 31,30, 31};
+		
+		
+		int y, m, nalsu=0, week;
+		
+		do{
+			System.out.print("년도?");
+			y = sc.nextInt();
+		}while(y<1);
+		
+		do{
+			System.out.print("월?");
+			m = sc.nextInt();
+		}while(m<1 || m>12);
+		
+		if( y %4 == 0 && y %100 !=0 || y %400==0){
+			months[1] = 29;
+		}
+		
+		nalsu = (y-1)*365 + (y-1)/4-(y-1)/100+(y-1)/400;
+		
+		//전월 m-1
+		for(int i=0; i<m-1; i++){
+			nalsu += months[i];
+		}
+		
+		week = nalsu%7;
+		
+		
+		
+		
+/*
+		for( int i=0; i<m-1; i++){
+			nalsu += months[i];
+		}
+		
+		if( y %4 == 0 && y %100 !=0 || y %400==0){
+			nalsu++;
+		}*/
+		
+		
+		
+		
+	}
+
+}

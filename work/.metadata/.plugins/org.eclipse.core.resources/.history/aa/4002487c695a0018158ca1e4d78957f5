@@ -1,0 +1,23 @@
+package com.day4;
+
+import java.util.Scanner;
+
+public class Hw4 {
+	
+	public static void main(String[] agrs){
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int n, multipleOfThree=0;
+		
+		System.out.print("Á¤¼ö?");
+		
+		n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+			if( i%3 == 0){
+				multipleOfThree++;
+			}
+		}
+	}
+}

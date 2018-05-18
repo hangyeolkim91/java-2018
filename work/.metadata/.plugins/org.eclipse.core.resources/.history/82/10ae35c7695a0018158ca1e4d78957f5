@@ -1,0 +1,10 @@
+package com.day4;
+
+public class Hw5 {
+
+	public static void main(String[] args) {
+
+		//5. 두수를 입력받아 적은 수에서 큰수까지의 합
+	}
+
+}
