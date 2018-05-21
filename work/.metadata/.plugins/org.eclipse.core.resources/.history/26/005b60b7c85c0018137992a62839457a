@@ -1,0 +1,13 @@
+package com.day5;
+
+public class Hw1 {
+
+	public static void main(String[] args) {
+		
+		/*1. 5개의 정수를 입력받아 입력받은 수를 출력하고 입력받은 수중
+		   가장 큰수와 적은수를 출력*/
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.day4;
+
+public class Test4 {
+
+	public static void main(String[] args) {
+		
+		// 년, 월, 일 입력 받아 요일을 반환
+		// 2018년 5월 21일 월요일
+	}
+
+}

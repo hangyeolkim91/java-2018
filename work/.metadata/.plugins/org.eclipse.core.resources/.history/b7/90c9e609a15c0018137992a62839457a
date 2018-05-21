@@ -1,0 +1,20 @@
+package com.day5;
+
+import java.util.Scanner;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+
+		//10명 이내의 이름과 점수를 입력 받아 
+		// 점수가 높은 사람에서 낮은 사람으로 출력 내림차순
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String[] name;
+		int[] score;
+		
+		System.out.println("");
+	}
+
+}

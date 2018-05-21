@@ -1,0 +1,49 @@
+package com.day5;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		
+		// 배열 안에 있는 숫자를 정렬
+		
+		int[] ar = {28, 65, 7, 4, 10 };
+		
+		int temp;
+		
+		System.out.print("Source Data : ");
+		
+		for(int i=0; i<ar.length; i++){
+			//System.out.print(ar[i] + " ");
+			System.out.printf("%4d", ar[i]);
+		}
+		System.out.println();
+		
+		for(int i=0; i<ar.length; i++){
+			for(int j=0; j<ar.length-1; j++){
+				if( ar[j] > ar[j+1]){
+					temp = ar[j];
+					ar[j]= ar[j+1];
+					ar[j+1] = temp;
+				}
+			}
+/*			for( int k=0; k<ar.length; k++){
+				System.out.print(ar[k]+ " ");
+			}
+			System.out.println();*/
+		}
+		
+		System.out.print("Sorted Data : ");
+		
+		for( int i=0; i<ar.length; i++){
+			System.out.printf("%4d", ar[i]);
+			/*System.out.print(ar[i]+ " ");*/
+		}
+		
+		
+		
+
+	}
+
+}
