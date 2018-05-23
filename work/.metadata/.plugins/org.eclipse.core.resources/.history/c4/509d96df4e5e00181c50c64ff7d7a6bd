@@ -1,0 +1,11 @@
+package com.day6;
+
+public class TestCom {
+
+	int w,h; //전역변수 ,  instance변수
+	
+	public void input(){
+		
+	}
+	
+}

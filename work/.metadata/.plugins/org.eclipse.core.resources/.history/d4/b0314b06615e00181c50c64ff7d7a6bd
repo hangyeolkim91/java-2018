@@ -1,0 +1,16 @@
+package com.day6;
+
+import java.util.Arrays;
+
+public class MyInsertionSort {
+
+	int[] arr;
+	
+	public MyInsertionSort(int[] iArr){
+		arr = Arrays.copyOf(iArr, iArr.length);
+	}
+	
+	public void sort(String cmd){
+		
+	}
+}

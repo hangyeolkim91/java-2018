@@ -1,0 +1,19 @@
+package com.day6;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		int[] bubble = {10,1,2,6,4,5,7,3,9};
+		
+		MyBubbleSort bs = new MyBubbleSort(bubble);
+		
+		bs.sort("asc");
+
+		bs.printArray();
+		bs.sort("dsc");
+		
+
+	}
+
+}

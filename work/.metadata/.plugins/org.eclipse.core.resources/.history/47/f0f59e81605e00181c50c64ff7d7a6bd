@@ -1,0 +1,66 @@
+package com.day6;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int[] bubble = {10,1,2,6,4,5,7,3,9};
+		
+		MyBubbleSort bs = new MyBubbleSort(bubble);
+		
+		System.out.println("Bubble sort-----------");
+		
+		System.out.println("input : " + Arrays.toString(bubble));
+		 
+		System.out.print("ascending :");
+		bs.sort("asc");
+		bs.printArray();
+		System.out.print("dscending : ");
+		bs.sort("dsc");
+		bs.printArray();
+		
+		System.out.println("Bubble sort end ------------");
+		
+		// ------------------------------------------------
+		
+		NumberGame ng = new NumberGame();
+		
+		while(true){
+			int cmd, userNumber;
+			System.out.print("default : 1 manual: 2?");
+			cmd = sc.nextInt();
+			if( cmd == 1 ){
+				ng.set();
+			}else{
+				System.out.println("input range of number?");
+				int ron = sc.nextInt();
+				System.out.println("input number of try?");
+				int not = sc.nextInt();
+				
+				ng.set(ron,not);
+			}
+			
+			for(int i=0; i<ng.numOfTry; i++){
+				System.out.print("정수입력?["+(i+1)+"번째 기회!]");
+				userNumber = sc.nextInt();
+				if( ng.isCorrect(userNumber)){
+					System.out.println("맞았어요!!");
+					break;
+				}else{
+					System.out.println("틀렸어요!!");
+				}
+			}
+		}
+		
+		
+		
+		
+		
+
+	}
+
+}

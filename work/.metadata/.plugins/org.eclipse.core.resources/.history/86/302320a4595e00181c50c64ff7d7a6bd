@@ -1,0 +1,18 @@
+package com.day6;
+
+import java.util.Arrays;
+
+public class MyBubbleSort {
+
+	private int[] arr;
+	
+	public MyBubbleSort(int[] ar){
+		
+		arr = Arrays.copyOf(ar, ar.length);
+		
+	}
+	
+	 private void sort(){
+		 
+	 }
+}

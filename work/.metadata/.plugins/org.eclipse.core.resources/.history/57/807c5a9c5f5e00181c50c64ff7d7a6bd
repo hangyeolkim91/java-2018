@@ -1,0 +1,37 @@
+package com.day6;
+
+import java.util.Random;
+
+public class NumberGame {
+	
+	private int correctNumber;
+	private int numOfTry;
+	private int rangeOfNumber;
+	
+	public void set(){
+		
+		rangeOfNumber = 10;
+		numOfTry = 3;
+		Random rd = new Random();
+		correctNumber = rd.nextInt(rangeOfNumber) +1;
+		
+	}
+	
+	public void set(int ron, int numot){
+		rangeOfNumber = ron;
+		numOfTry = numot;
+		Random rd = new Random();
+		correctNumber = rd.nextInt(rangeOfNumber) +1;
+	}
+	
+	private boolean isCorrect(int userNum){
+		if( userNum == correctNumber ){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+
+
+}

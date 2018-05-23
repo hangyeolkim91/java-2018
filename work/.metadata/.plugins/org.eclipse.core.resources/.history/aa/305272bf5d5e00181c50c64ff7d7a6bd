@@ -1,0 +1,17 @@
+package com.day6;
+
+import java.util.Random;
+
+public class NumberGame {
+	
+	private int correctNumber;
+	private int userNumber;
+	private int numOfTry;
+	
+	public void set(){
+		
+		Random rd = new Random();
+		correctNumber = rd.nextInt();
+	}
+
+}

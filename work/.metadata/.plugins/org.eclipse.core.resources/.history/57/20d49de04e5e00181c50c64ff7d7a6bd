@@ -1,0 +1,14 @@
+package com.day6;
+
+import java.util.Scanner;
+
+public class TestCom {
+
+	int w,h; //전역변수 ,  instance변수
+	
+	public void input(){
+		Scanner sc = new Scanner(System.in);
+		
+	}
+	
+}

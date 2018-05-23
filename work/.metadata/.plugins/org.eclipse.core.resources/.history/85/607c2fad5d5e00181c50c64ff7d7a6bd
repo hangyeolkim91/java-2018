@@ -1,0 +1,9 @@
+package com.day6;
+
+public class NumberGame {
+	
+	private int correctNumber;
+	private int userNumber;
+	private int numOfTry;
+
+}

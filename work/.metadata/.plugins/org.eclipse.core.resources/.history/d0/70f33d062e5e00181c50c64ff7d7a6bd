@@ -1,0 +1,40 @@
+package com.day6;
+
+import java.util.Scanner;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		
+		// 주민번호 검색
+		// index : 01234567890123
+		// jumin : 941231-2053128
+		// check : 234567 892345
+		
+		// sum = (9*2)+(4*3)+ ... + (2*5) 세로로 곱하여 더함 ( jumin, check)
+		// sum = 11-sum%11
+		// sum = sum%10
+		// sum == 8( 주민번호 맨 끝 수 )
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String str;
+		
+		int[] check = {2,3,4,5,6,7, 8,9,2,3,4,5};
+		int sum;
+		
+		System.out.print("주민번호? [123456 - 1234567]");
+	}
+
+}
+
+/*
+
+String str = "seoul korea";
+
+                012345678910
+System.out.println(str.substring(0,3));
+System.out.println(str.substring(6,8));
+System.out.println(str.substring(6));
+*/

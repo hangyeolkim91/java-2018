@@ -1,0 +1,13 @@
+package com.day6;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		
+		// 주민번호 검색
+		
+		String str = "seoul korea";
+		System.out.println(str.substring(0,3));
+	}
+
+}

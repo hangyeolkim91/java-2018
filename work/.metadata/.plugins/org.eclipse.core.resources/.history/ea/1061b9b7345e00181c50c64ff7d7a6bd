@@ -1,0 +1,14 @@
+package com.day6;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+
+		//배열의 배열
+		
+		int[][] arr = new int[6][6];
+		
+		
+	}
+
+}
