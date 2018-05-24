@@ -1,0 +1,11 @@
+package com.swimming;
+
+public class Record {
+	
+	String name;
+	int score;
+
+	
+	
+
+}

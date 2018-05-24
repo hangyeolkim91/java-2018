@@ -1,0 +1,12 @@
+package com.ttt;
+
+public class SorceMain {
+
+	public static void main(String[] args) {
+
+		Sorce so = new Sorce();
+		so.set();
+		so.score();
+	}
+
+}

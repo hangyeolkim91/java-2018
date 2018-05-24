@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class TestCom {
 
-	int w,h; //전역변수 ,  instance변수
+	public int w,h; //전역변수 ,  instance변수
+	
 	
 	public void input(){
 		
@@ -15,6 +16,8 @@ public class TestCom {
 		
 		System.out.print("세로?");
 		h = sc.nextInt();
+		
+		
 		
 		//sc.close();
 		

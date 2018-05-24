@@ -1,0 +1,20 @@
+package com.score1;
+
+import java.util.Scanner;
+
+public class Score {
+	
+	int inwon;
+	Record[] rec; // 초기값 = null
+
+	public void set(){
+		
+		Scanner sc = new Scanner(System.in);
+		
+		do{
+			System.out.println("인원수?");
+			inwon = sc.nextInt();
+		}while(inwon < 1 || inwon >10);
+		
+	}
+}

@@ -11,18 +11,20 @@ public class Test {
 		int[] bubble = {10,1,2,6,4,5,7,3,9};
 		int[] insert = {10,1,2,6,4,5,7,3,9};
 		
-		MyBubbleSort bs = new MyBubbleSort(bubble);
+		MyBubbleSort bs = new MyBubbleSort();
 		
 		System.out.println("Bubble sort-----------");
 		
 		System.out.println("input : " + Arrays.toString(bubble));
 		 
 		System.out.print("ascending :");
-		bs.sort("asc");
-		bs.printArray();
+		bs.sort(bubble,"asc");
+		//bs.printArray();
+		System.out.println(Arrays.toString(bubble));
 		System.out.print("dscending : ");
-		bs.sort("dsc");
-		bs.printArray();
+		bs.sort(bubble,"dsc");
+		//bs.printArray();
+		System.out.println(Arrays.toString(bubble));
 		
 		System.out.println("Bubble sort end ------------");
 		System.out.println();

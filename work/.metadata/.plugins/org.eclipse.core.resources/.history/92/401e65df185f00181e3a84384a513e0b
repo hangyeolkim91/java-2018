@@ -1,0 +1,10 @@
+package com.library;
+
+public class Library {
+
+	ArrayList<Book> blist = new ArrayList();
+	
+	public void input(){
+		
+	}
+}

@@ -1,0 +1,11 @@
+package com.ttt;
+
+public class Record {
+	
+	String name;
+	int score;
+
+	
+	
+
+}

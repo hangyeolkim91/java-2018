@@ -1,0 +1,17 @@
+package com.library;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Library {
+
+	ArrayList<Book> blist = new ArrayList<Book>();
+	
+	public void input(){
+		Scanner sc = new Scanner(System.in);
+		Book bk = new Book();
+		
+		System.out.println("책 이름?");
+		System.out.println("저자?");
+	}
+}

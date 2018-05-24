@@ -1,0 +1,30 @@
+package com.class1;
+
+import com.day6.TestCom;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+TestCom tc = new TestCom();
+		
+		//System.out.println(System.in.available());
+		
+		tc.input();
+		
+		//System.out.println(System.in.available());
+		
+		int a = tc.area();
+		int l = tc.length();
+		tc.print(a, l);
+		
+		//------------------------
+		
+		TestCom tc1 = new TestCom();
+		tc1.input();
+		a = tc1.area();
+		l = tc1.length();
+		tc.print(a, l);
+	}
+
+}

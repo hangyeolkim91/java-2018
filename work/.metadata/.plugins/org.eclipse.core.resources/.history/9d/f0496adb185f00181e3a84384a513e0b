@@ -1,0 +1,8 @@
+package com.library;
+
+public class Library {
+
+	public void input(){
+		
+	}
+}

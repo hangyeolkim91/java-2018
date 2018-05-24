@@ -6,13 +6,13 @@ public class MyBubbleSort {
 
 	private int[] arr;
 	
-	public MyBubbleSort(int[] ar){
+	/*public MyBubbleSort(int[] ar){
 		
 		arr = Arrays.copyOf(ar, ar.length);
 		
-	}
+	}*/
 	
-	 public void sort(String comp){
+	 public void sort(int[] arr, String comp){
 		 int temp;
 		 if( comp.equalsIgnoreCase("asc")){
 			 for(int i=1; i<arr.length; i++){

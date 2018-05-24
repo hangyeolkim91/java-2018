@@ -1,0 +1,13 @@
+package com.library;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Library {
+
+	ArrayList<Book> blist = new ArrayList<Book>();
+	
+	public void input(){
+		Scanner sc = new Scanner(System.in);
+	}
+}

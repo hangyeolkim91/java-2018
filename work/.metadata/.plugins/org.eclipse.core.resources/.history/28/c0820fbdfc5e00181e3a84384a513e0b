@@ -1,0 +1,15 @@
+package com.class1;
+
+
+class Sum{
+	
+}
+
+public class Test3 {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

@@ -1,0 +1,49 @@
+package com.library;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+
+public class Library {
+
+	//private ArrayList<Book> blist = new ArrayList<Book>();
+	
+	private Map<Integer, Book> bmap = new HashMap<Integer, Book>();
+	private int serialIndex = 0;
+	
+	private void input(){
+		Scanner sc = new Scanner(System.in);
+		Book bk = new Book();
+		
+		System.out.println("책 이름?");
+		bk.title = sc.next();
+		
+		System.out.println("저자?");
+		bk.author = sc.next();
+		
+		bk.isRental = false;
+		serialIndex++;
+		bmap.put(serialIndex, bk)
+		
+		
+	}
+	
+	private void showBookList(){
+		
+	}
+	
+	private boolean lendBook(int snum, String name){
+		
+		return true;
+	}
+	
+	private boolean returnBook(int snum){
+		return true;
+	}
+	
+	private boolean deleteBook(int snum){
+		return true;
+	}
+}

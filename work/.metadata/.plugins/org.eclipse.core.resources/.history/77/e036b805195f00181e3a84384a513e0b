@@ -1,0 +1,12 @@
+package com.library;
+
+import java.util.ArrayList;
+
+public class Library {
+
+	ArrayList<Book> blist = new ArrayList<Book>();
+	
+	public void input(){
+		
+	}
+}

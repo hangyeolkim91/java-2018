@@ -1,0 +1,8 @@
+package com.score1;
+
+public class Score {
+	
+	int inwon;
+	Record[] rec;
+
+}

@@ -1,0 +1,121 @@
+package com.library;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+
+public class Library {
+
+	//private ArrayList<Book> blist = new ArrayList<Book>();
+	Scanner sc = new Scanner(System.in);
+	private Map<Integer, Book> bmap = new HashMap<Integer, Book>();
+	private int serialIndex = 0;
+	private String[] rentalMsg = {"대여중","대여가능"};
+	//private Command comd;
+	
+	public void start(){
+		int cmd;
+		while(true){
+			System.out.println("도서 관리 프로그램");
+			System.out.println("1.등록 2.도서목록 3.대여 4.반납 5.삭제 ?");
+			cmd = sc.nextInt();
+			
+			if(cmd == 1){
+				input();
+				showBookList();
+			}else if(cmd == 2){
+				showBookList();
+			}else if (cmd == 3){
+				int bnum;
+				String name;
+				
+				showBookList();
+				System.out.println("대출 할 책 번호를 입력해주세요");
+				bnum = sc.nextInt();
+				System.out.println("대출 할 사람의 이름을 입력해주세요");
+				name = sc.next();
+				
+				lendBook(bnum, name);
+				
+				
+			}else if (cmd==4){
+				int bnum;
+				
+				showBookList();
+				System.out.println("반납 할 책 번호를 입력해주세요");
+				bnum = sc.nextInt();
+			}else if (cmd==5){
+				
+			}
+			
+		}
+	}
+	
+	private void input(){
+		
+		Book bk = new Book();
+		
+		System.out.println("책 이름?");
+		bk.title = sc.next();
+		
+		System.out.println("저자?");
+		bk.author = sc.next();
+		
+		bk.isRental = false;
+		serialIndex++;
+		bmap.put(serialIndex, bk);
+		
+		
+	}
+	
+	private void showBookList(){
+		Set<Integer> keySet = bmap.keySet();
+		Iterator<Integer> keyIterator = keySet.iterator();
+		
+		System.out.println("번호\t책 제목\t저자\t대출여부\t대출한사람");
+		while(keyIterator.hasNext()){
+			Integer key = keyIterator.next();
+			Book value = bmap.get(key);
+			System.out.print(key + "\t" + value.title + "\t" + value.author);
+			if( value.isRental){
+				System.out.print("\t"+ rentalMsg[0]);
+			}else{
+				System.out.print("\t"+ rentalMsg[1]);
+			}
+			System.out.println("\t"+ value.lender);
+		}
+	}
+	
+	private boolean lendBook(int snum, String name){
+		Book bk = bmap.get(snum);
+		
+		if(bk == null)
+			return false;
+		
+		bk.isRental = true;
+		bk.lender = name;
+		bmap.put(snum,bk);
+		return true;
+	}
+	
+	private boolean returnBook(int snum){
+		Book bk = bmap.get(snum);
+		
+		if(bk == null)
+			return false;
+		
+		bk.isRental = false;
+		bk.lender = "";
+		bmap.put(snum,bk);
+		return true;
+	}
+	
+	private boolean deleteBook(int snum){
+		bmap.remove(snum);
+		return true;
+	}
+}

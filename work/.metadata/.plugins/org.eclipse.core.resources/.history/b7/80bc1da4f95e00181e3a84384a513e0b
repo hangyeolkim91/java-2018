@@ -1,0 +1,16 @@
+package com.class1;
+
+class Aclass{
+	int a, b ; // instance var
+}
+
+public class Test2 {
+
+	public static void main(String[] args) {
+
+		Aclass objA = new Aclass();
+		Aclass objB = new Aclass();
+		
+	}
+
+}

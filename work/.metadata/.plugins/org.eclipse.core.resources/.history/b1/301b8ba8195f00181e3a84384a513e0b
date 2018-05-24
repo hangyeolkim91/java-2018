@@ -1,0 +1,29 @@
+package com.library;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Library {
+
+	private ArrayList<Book> blist = new ArrayList<Book>();
+	
+	private void input(){
+		Scanner sc = new Scanner(System.in);
+		Book bk = new Book();
+		
+		System.out.println("책 이름?");
+		bk.title = sc.next();
+		
+		System.out.println("저자?");
+		bk.author = sc.next();
+		
+		bk.isRental = false;
+		bk.serialNumber = blist.size()+1;
+		blist.add(bk);
+		
+	}
+	
+	private void show(){
+		
+	}
+}

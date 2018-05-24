@@ -1,0 +1,8 @@
+package com.library;
+
+public class Book {
+
+	String title,author;
+	boolean isRental;
+	
+}

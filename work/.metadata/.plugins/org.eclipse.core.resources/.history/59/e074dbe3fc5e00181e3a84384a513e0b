@@ -1,0 +1,27 @@
+package com.class1;
+
+import java.util.Scanner;
+
+
+class Sum{
+	
+	int n,sum;
+	
+	public void input(){
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Á¤¼ö°ª?");
+		n = sc.nextInt();
+	}
+	
+}
+
+public class Test3 {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}
