@@ -1,0 +1,26 @@
+package com.homework;
+
+import java.io.IOException;
+
+public class Hw1 {
+
+	public static void main(String[] args) throws IOException {
+
+		char a= (char)System.in.read(); 
+		String str="";
+		while( a != '\n' ){
+			str += a;
+			a = (char)System.in.read();
+			
+		}
+		System.out.println(str);
+		System.out.println("tt");
+		/*int n = Integer.parseInt(str);
+		int sum =0;
+		for(int i=1; i<=n; i++){
+			sum+=i;
+		}
+		System.out.println("гу╟Х : " + sum);*/
+	}
+
+}

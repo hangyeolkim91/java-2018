@@ -1,0 +1,15 @@
+package com.class2;
+
+class Rect{
+	
+	private int w,h;
+	
+}
+
+public class Test4 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

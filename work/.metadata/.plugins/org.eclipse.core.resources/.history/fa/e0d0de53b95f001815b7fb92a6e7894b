@@ -1,0 +1,25 @@
+package com.class2;
+
+class Circle{
+	
+	private int r; // Á¤º¸ÀÇ Àº´Ð(Ä¸½¶È­)
+	private final double pi = 3.14;
+	
+	public void setData(int a){
+		r=a;
+	}
+	
+	public double area(){
+		return r*r*3.14;
+	}
+	
+}
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

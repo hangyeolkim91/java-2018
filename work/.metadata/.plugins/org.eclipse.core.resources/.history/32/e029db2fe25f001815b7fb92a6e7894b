@@ -1,0 +1,10 @@
+package com.homework;
+
+public class Grade {
+
+	private String name;
+	private int[] score = new int[3];
+	private String[] level = new String[3];
+	private int total, avg;
+	
+}

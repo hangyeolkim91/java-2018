@@ -1,0 +1,13 @@
+package com.class2;
+
+class Rect{
+	
+}
+
+public class Test4 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

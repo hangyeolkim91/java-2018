@@ -2,18 +2,15 @@ package com.library;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Scanner;
@@ -196,7 +193,7 @@ public class Library {
 	private void init() throws IOException{
 		BufferedReader fr = new BufferedReader(new FileReader("book.txt"));
 		String line="";
-		List<String> slist = new ArrayList<String>();
+		
 		while( (line=fr.readLine()) != null){
 			StringTokenizer st = new StringTokenizer(line,",");
 			Book bk = new Book();

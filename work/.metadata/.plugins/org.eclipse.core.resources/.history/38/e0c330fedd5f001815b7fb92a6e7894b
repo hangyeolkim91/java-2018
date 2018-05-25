@@ -1,0 +1,17 @@
+package com.homework;
+
+import java.io.IOException;
+
+public class Hw1 {
+
+	public static void main(String[] args) throws IOException {
+
+		char a='a'; 
+		while( a != '\n' ){
+			a = (char)System.in.read();
+			System.out.print(a);
+		}
+		
+	}
+
+}

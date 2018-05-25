@@ -1,0 +1,13 @@
+package com.homework;
+
+public class ScoreMain {
+
+	public static void main(String[] args) {
+
+		Score sc = new Score();
+		sc.set();
+		sc.input();
+		sc.printGrade();
+	}
+
+}

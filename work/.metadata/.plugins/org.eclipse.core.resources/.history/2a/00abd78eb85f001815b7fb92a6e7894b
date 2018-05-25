@@ -1,0 +1,16 @@
+package com.class2;
+
+class Circle{
+	
+	private int r;
+	
+}
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

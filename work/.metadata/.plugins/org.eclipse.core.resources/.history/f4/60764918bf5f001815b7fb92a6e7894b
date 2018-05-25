@@ -1,0 +1,15 @@
+package com.class2;
+
+// static
+// 자기가 알아서 메모리로 올라감
+
+
+class 
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

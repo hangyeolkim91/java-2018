@@ -1,0 +1,13 @@
+package com.class2;
+
+public class CustomInfo {
+
+	String name = "배수지";
+	int age=25;
+	
+	public void Info(){
+		
+		System.out.println(name + "의 나이는");
+		
+	}
+}

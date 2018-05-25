@@ -23,6 +23,11 @@ public class Test2 {
 		ob2.b=200;
 		System.out.println("ob2.a : " + ob2.a + " ob2.b : " + ob2.b);
 		
+		Aclass[] arr = new Aclass[3];
+		arr[0] = new Aclass();
+		
+		System.out.println(arr[0].a);
+		
 	}
 
 }

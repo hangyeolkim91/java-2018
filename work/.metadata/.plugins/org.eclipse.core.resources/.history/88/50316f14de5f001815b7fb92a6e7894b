@@ -1,0 +1,19 @@
+package com.homework;
+
+import java.io.IOException;
+
+public class Hw1 {
+
+	public static void main(String[] args) throws IOException {
+
+		char a='a'; 
+		String str="";
+		while( a != '\n' ){
+			a = (char)System.in.read();
+			str += a;
+			
+		}
+		System.out.print(str);
+	}
+
+}

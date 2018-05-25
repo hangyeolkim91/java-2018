@@ -1,0 +1,12 @@
+package com.homework;
+
+import java.io.IOException;
+
+public class Hw1 {
+
+	public static void main(String[] args) throws IOException {
+
+		char a = (char)System.in.read();
+	}
+
+}

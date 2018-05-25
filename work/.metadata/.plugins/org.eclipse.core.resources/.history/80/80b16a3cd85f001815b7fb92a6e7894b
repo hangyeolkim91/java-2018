@@ -1,0 +1,64 @@
+package com.class2;
+
+import java.util.Scanner;
+
+class Rect{
+	
+	private int w,h;
+	
+	public void set(int w, int h){
+		
+		this.w = w;
+		this.h = h;
+		
+	}
+	
+	public int area(){
+		return w*h;
+	}
+	public int length(){
+		return (w+h)*2;
+	}
+	
+	public void print(int a, int l){
+		System.out.println("가로 : "+w);
+		System.out.println("세로 : "+h);
+		System.out.println("넓이 : "+a);
+		System.out.println("둘레 : "+l);
+	}
+	
+	public void write(){
+		System.out.println("가로 : "+w);
+		System.out.println("세로 : "+h);
+	}
+	
+	public void areaWrite(int a){
+		System.out.println("가로 : "+w);
+		System.out.println("세로 : "+h);
+		System.out.println("넓이 : "+a);
+	}
+}
+
+public class Test4 {
+
+	public static void main(String[] args) {
+
+		Rect rc = new Rect();
+		int w,h;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("가로?");
+		w = sc.nextInt();
+		System.out.println("세로?");
+		h = sc.nextInt();
+		
+		rc.set(w, h);
+		int a = rc.area();
+		int l = rc.length();
+		
+		rc.print(a, l);
+		rc.write();
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.class2;
+
+public class CustomInfo {
+
+	String name = "¹è¼öÁö";
+	
+	public void Info(){
+		
+	}
+}
