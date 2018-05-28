@@ -1,0 +1,13 @@
+package com.class3;
+
+// 생성자
+// 메모리 할당을 받을 때 사용
+//
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

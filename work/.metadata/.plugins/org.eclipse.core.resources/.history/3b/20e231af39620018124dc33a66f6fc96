@@ -1,0 +1,13 @@
+package com.class3;
+
+/*
+ *  상속( 부모가 자식한테 )
+ */
+
+public class Test8 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

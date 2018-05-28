@@ -1,0 +1,16 @@
+package com.class3;
+
+/*
+ *  상속( 부모가 자식한테 )
+ *  
+ *  1. 부모의 것 = 자식의 것
+ *  
+ */
+
+public class Test8 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

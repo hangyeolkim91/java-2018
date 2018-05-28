@@ -1,0 +1,17 @@
+package algo.programmers;
+
+
+class Solution {
+	  public int[][] solution(int n) {
+	      int[][] answer = {};
+	      return answer;
+	  }
+	}
+
+public class Hanoi {
+
+	public static void main(String[] args) {
+
+	}
+
+}

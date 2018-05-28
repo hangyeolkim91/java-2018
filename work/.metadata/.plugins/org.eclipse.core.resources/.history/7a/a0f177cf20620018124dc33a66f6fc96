@@ -1,0 +1,12 @@
+package com.class3;
+
+// 비정형 인수
+
+
+public class Test5 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

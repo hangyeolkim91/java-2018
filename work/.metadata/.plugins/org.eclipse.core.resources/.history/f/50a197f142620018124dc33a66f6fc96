@@ -1,0 +1,59 @@
+package com.class3;
+
+class SuperClass{
+	private String title;
+	protected double area;
+	
+	public SuperClass(){
+		
+	}
+	
+	public SuperClass(String title){
+		this.title = title;
+	}
+	
+	public void write(){
+		System.out.println(title + ": "+ area);
+	}
+}
+
+class Circle extends SuperClass{
+	
+	private int r;
+	protected static final double PI=3.14;
+	
+	public Circle(int r ){
+		super("¿ø");
+		this.r = r;
+	}
+	
+	public void circleArea(){
+		area = r*r*PI;
+	}
+	
+}
+
+class RectC extends SuperClass{
+	
+	private int w,h;
+	
+	public void rectArea(int w, int h){
+		this.w = w;
+		this.h = h;
+		area = w*h;
+	}
+}
+
+
+
+public class Test10 {
+
+	public static void main(String[] args) {
+		
+		Circle ob1 = new Circle(10);
+		ob1.circleArea();
+		ob1.write();
+
+	}
+
+}

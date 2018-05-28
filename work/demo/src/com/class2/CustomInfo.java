@@ -10,4 +10,5 @@ public class CustomInfo {
 		System.out.println(name + "의 나이는 " + age + "살 입니다.");
 		
 	}
+
 }

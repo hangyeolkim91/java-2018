@@ -1,0 +1,19 @@
+package com.class3;
+
+class Calc{
+	
+	private int num1, num2;
+	private char operator;
+	
+	public boolean input(){
+		
+	}
+}
+
+public class Test6 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

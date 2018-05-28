@@ -1,0 +1,19 @@
+package com.class3;
+
+/*
+ *  상속( 부모가 자식한테 )
+ *  
+ *  1. 부모의 것 = 자식의 것
+ *  2. private으로 선언한 것 = 부모의 것
+ *  3. protected로 선언한 것은 상속이 가능
+ *  4. 자식의 것 = 자식의 것
+ *  5. 같은 객체를 가지고 있으면 자신의 것을 쓴다.
+ */
+
+public class Test8 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -22,8 +22,10 @@ public class Hw1 {
 		
 		System.out.print("수입력?");
 
-/*		char a= (char)System.in.read(); 
+		/*char a= (char)System.in.read(); 
+		
 		String str="";
+		
 		while( a != '\r' ){
 			str += a;
 			a = (char)System.in.read();
@@ -42,16 +44,19 @@ public class Hw1 {
 		for(int i=1; i<=n; i++){
 			sum+=i;
 		}
-		System.out.println("합계 : " + sum);
-*/		
+		System.out.println("합계 : " + sum);*/
+		
 		
 		int a = System.in.read();
 		int number=0;
 		int sum=0;
 		
 		while( a !='\r'){
+			
 			number *= 10;
+			
 			number += (a-'0');
+			
 			a = System.in.read();
 			
 			

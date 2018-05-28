@@ -1,0 +1,30 @@
+package algo.programmers;
+
+
+class Solution {
+  public int[][] solution(int n) {
+      int[][] answer = {};
+      int size = (int)Math.pow(2, n);
+      
+      answer =new int[size][];
+      for(int i=0; i<n; i++){
+    	  answer[i] = new int[2];
+      }
+      return answer;
+  }
+}
+
+public class Hanoi {
+
+	public static void main(String[] args) {
+		
+		Solution s = new Solution();
+		
+		int[][] arr = s.solution(10);
+		
+		System.out.println(arr.length);
+		System.out.println(arr[1].length);
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+package algo.programmers;
+
+import java.util.Arrays;
+
+int hanoi(){
+	
+}
+
+
+class Solution {
+  public int[][] solution(int n) {
+      int[][] answer = {};
+      int size = (int)Math.pow(2, n);
+      
+      answer =new int[size-1][];
+      
+      
+      return answer;
+  }
+}
+
+public class Hanoi {
+
+	public static void main(String[] args) {
+		
+		Solution s = new Solution();
+		
+		int[][] arr = s.solution(15);
+		
+		System.out.println(arr.length);
+		System.out.println(arr[1].length);
+		System.out.println(Arrays.toString(arr));
+		
+	}
+
+}

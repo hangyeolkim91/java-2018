@@ -1,0 +1,11 @@
+package com.class3;
+
+// 되부름 함수
+
+public class Test4 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

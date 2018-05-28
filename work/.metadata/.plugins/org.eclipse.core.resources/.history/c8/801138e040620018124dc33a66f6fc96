@@ -1,0 +1,23 @@
+package com.class3;
+
+class SuperClass{
+	private String title;
+	protected double area;
+	
+	public SuperClass(){
+		
+	}
+	
+	public SuperClass(String title){
+		this.title = title;
+	}
+	
+}
+
+public class Test10 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

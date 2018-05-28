@@ -1,0 +1,13 @@
+package com.class3;
+
+class Calc{
+	
+}
+
+public class Test6 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

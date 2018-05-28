@@ -1,0 +1,22 @@
+package com.class3;
+
+// 되부름 함수
+// 코드가 간단해짐
+// 처리 속도가 느림 (stack 영역에 데이터를 저장했다 출력하기 때문)
+
+
+public class Test4 {
+
+	public void print(int n){
+		if(n != 1){
+			print(n-1);
+		}
+		
+		System.out.println("%5d", n);
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}
