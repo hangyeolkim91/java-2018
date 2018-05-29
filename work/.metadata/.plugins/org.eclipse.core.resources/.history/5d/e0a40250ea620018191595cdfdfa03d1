@@ -1,0 +1,15 @@
+package com.class4;
+
+public class Test4 {
+
+	public void stringTime(){
+		System.out.println("stringTime...");
+		
+		long start = System.currentTimeMillis();
+		
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

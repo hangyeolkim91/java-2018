@@ -1,0 +1,12 @@
+package algo.programmers;
+
+public class AlgoMain {
+
+	public static void main(String[] args) {
+
+		KakaoFreindsColoringBook sol = new KakaoFreindsColoringBook();
+		int[][] picture = { {1, 1, 1, 0}, {1, 2, 2, 0}, {1, 0, 0, 1}, {0, 0, 0, 1}, {0, 0, 0, 3}, {0, 0, 0, 3}};
+		int[] answer = sol.solution(6, 4, picture);
+	}
+
+}

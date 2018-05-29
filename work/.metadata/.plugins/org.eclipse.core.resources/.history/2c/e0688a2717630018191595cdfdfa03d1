@@ -1,0 +1,10 @@
+package com.headfirstoop;
+
+public enum Type {
+
+	ACOUSTIC, ELECTRIC;
+	
+	public String toString(){
+		
+	}
+}

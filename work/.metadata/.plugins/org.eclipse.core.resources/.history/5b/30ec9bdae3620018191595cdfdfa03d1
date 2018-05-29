@@ -1,0 +1,13 @@
+package com.class4;
+
+
+//String은 class 이다 ( 자료형이 아니다 )
+
+public class Test3 {
+
+	public static void main(String[] args) {
+
+		String ob1=""
+	}
+
+}

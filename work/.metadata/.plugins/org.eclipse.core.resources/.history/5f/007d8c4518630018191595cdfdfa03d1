@@ -1,0 +1,35 @@
+package com.headfirstoop;
+
+public enum Wood {
+
+	INDIAN_ROSEWOOD, BRAZILIAN_ROSEWOOD, MAHOGANY, MAPLE, COCOBOLO, CEDAR, ADIRONDACK, ALDER, SITKA;
+	
+	public String toString(){
+		
+		switch(this){
+		case INDIAN_ROSEWOOD:
+			return "indian_rosewood";
+		case BRAZILIAN_ROSEWOOD:
+			return "indian_rosewood";
+		case MAHOGANY:
+			return "indian_rosewood";
+		case MAPLE:
+			return "indian_rosewood";
+		case COCOBOLO:
+			return "indian_rosewood";
+		case CEDAR:
+			return "indian_rosewood";
+		case ADIRONDACK:
+			return "indian_rosewood";
+		case ALDER:
+			return "indian_rosewood";
+		case SITKA:
+			return "indian_rosewood";
+		default:
+			return null;
+
+			
+			
+		}
+	}
+}

@@ -1,0 +1,15 @@
+package com.class4;
+
+class TestA{
+	public void print(String r){
+		System.out.println(r);
+	}
+}
+
+public class Test9 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

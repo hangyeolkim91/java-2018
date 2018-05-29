@@ -1,0 +1,9 @@
+package algo.programmers;
+
+public class AlgoMain {
+
+	public static void main(String[] args) {
+
+	}
+
+}

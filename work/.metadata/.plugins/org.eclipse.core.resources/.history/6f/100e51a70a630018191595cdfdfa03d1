@@ -1,0 +1,15 @@
+package com.class4;
+
+/*
+ * Wrapper 클래스
+ * 기본 데이터(자료형)을 객체로 사용 할 수 있게 해줌
+ * 자바의 자료형 : boolenan , byte, char, short, int, long, double, float
+ */
+
+public class Test8 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

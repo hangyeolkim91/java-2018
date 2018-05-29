@@ -1,0 +1,17 @@
+package com.class4;
+
+class A{
+	public int x = 10;
+	
+	public void print(){
+		System.out.println("x : "+ x);
+	}
+}
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.headfirstoop;
+
+public class FindGuitarTest {
+
+	public static void main(String[] args) {
+		Inventory inventory = new Inventory();
+		initializeInventory(inventory);
+		
+		Guitar whatErinLikes = new Guitar("",0,"fender", "Stratocastor", "electric", "Alder", "Alder");
+		
+		Guitar guitar = inventory.search(whatErinLikes);
+
+	}
+
+	private static void initializeInventory(Inventory inventory){
+		inventory.addGuitar("V95693", 1499.95, "Fender", "Stratocastor", "electric", "Alder", "Alder");
+	}
+}

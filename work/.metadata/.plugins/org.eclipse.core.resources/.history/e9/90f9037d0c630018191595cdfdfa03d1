@@ -1,0 +1,22 @@
+package com.class4;
+
+class TestA{
+	public void print(String r){
+		System.out.println(r);
+	}
+}
+
+class Calc extends TestA{
+	
+}
+
+public class Test9 {
+
+	public static void main(String[] args) {
+		
+		// 두수 [5,2]? 10, 25
+		// 연산자 [+,-,*,/] ?
+		// 10 + 25 = 35
+	}
+
+}
