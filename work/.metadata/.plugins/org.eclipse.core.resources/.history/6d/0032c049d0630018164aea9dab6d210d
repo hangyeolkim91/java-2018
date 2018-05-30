@@ -1,0 +1,13 @@
+package com.class5;
+
+abstract class SortInt{
+	
+}
+
+public class Test8 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

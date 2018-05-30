@@ -1,0 +1,22 @@
+package com.class5;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+
+		//  오늘로 부터 x일 후를 년 월 일 요일 로 출력
+		// 현재 : 2018년 5월 30일 수
+		// 100일 후 : yyyy-mm-dd week
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(system.in));
+		
+		
+		
+		System.out.println("시작일?[yyy-mm-dd]");
+		
+	}
+
+}

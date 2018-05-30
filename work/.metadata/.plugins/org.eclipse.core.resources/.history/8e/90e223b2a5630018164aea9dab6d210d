@@ -1,0 +1,26 @@
+package com.homework;
+
+public class RefTest {
+
+	public void changeValue(int a){
+		a = a+1;
+	}
+	
+	public void changeValue(Integer a){
+		a= 1+a.intValue();
+	}
+	
+	public static void main(String[] args) {
+
+		int a = 10;
+		Integer b = new Integer(5);
+		b +=1;
+		RefTest rt = new RefTest();
+		rt.changeValue(a);
+		System.out.println(a);
+		rt.changeValue(b);
+		System.out.println(b);
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.class5;
+
+//Calendar now = Calendar.getInstance();
+
+class Sing{
+	private static Sing ob;
+	
+	private int a = 10;
+	
+	public Sing(){
+		ob = new Sing();
+	}
+	
+	public static Sing getInstance(){
+		return ob;
+	}
+	
+	public int getA(){
+		return a;
+	}
+}
+
+public class Test5 {
+
+	public static void main(String[] args) {
+
+		Sing si = Sing.getInstance();
+		System.out.println(si.getA());
+		
+	}
+
+}

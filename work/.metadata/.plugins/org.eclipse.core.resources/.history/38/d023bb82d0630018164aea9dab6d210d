@@ -1,0 +1,15 @@
+package com.class5;
+
+abstract class SortInt{
+	
+	private int[] value;
+	
+}
+
+public class Test8 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

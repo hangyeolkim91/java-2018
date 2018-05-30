@@ -1,0 +1,16 @@
+package com.class5;
+
+class SuperClass{
+	protected int a = 10 , b = 20;
+	
+	public void write(){
+		syso
+	}
+}
+public class Test4 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

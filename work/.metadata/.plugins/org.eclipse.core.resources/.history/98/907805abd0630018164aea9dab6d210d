@@ -1,0 +1,21 @@
+package com.class5;
+
+abstract class SortInt{
+	
+	private int[] value;
+	
+	protected abstract void sorting(); // 추상 메소드
+
+	public void sort(int[] value){
+		
+	}
+}
+
+
+public class Test8 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

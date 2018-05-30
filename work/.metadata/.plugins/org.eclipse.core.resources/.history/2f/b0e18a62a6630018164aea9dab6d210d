@@ -1,0 +1,36 @@
+package com.homework;
+
+public class RefTest {
+
+	public void changeValue(int a){
+		a = a+1;
+		
+		System.out.println(a);
+	}
+	
+	public void changeValue(Integer a){
+		a+=1;
+		System.out.println(a.toString());
+	}
+	
+	public void changeValue(String s){
+		s += "a";
+	}
+	
+	public static void main(String[] args) {
+
+		int a = 10;
+		Integer b = new Integer(5);
+		System.out.println("b.toString()" + b.getClass().toString());
+		RefTest rt = new RefTest();
+		String s = "str";
+		rt.changeValue(a);
+		System.out.println(a);
+		rt.changeValue(b);
+		System.out.println(b);
+		rt.changeValue(s);
+		System.out.println(s);
+		
+	}
+
+}

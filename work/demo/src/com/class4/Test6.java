@@ -1,5 +1,8 @@
 package com.class4;
 
+
+// String은 불변하다(immutable)
+
 public class Test6 {
 
 	public static void main(String[] args) {

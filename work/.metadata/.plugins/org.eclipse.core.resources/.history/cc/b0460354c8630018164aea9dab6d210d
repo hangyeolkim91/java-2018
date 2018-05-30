@@ -1,0 +1,19 @@
+package com.class5;
+
+//Calendar now = Calendar.getInstance();
+
+class Sing{
+	private static Sing ob;
+	
+	public Sing(){
+		ob = new Sing();
+	}
+}
+
+public class Test5 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

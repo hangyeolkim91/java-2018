@@ -1,0 +1,29 @@
+package com.class5;
+
+class SuperClass{
+	protected int a = 10 , b = 20;
+	
+	public void write(){
+		System.out.println("Super class write()...");
+	}
+}
+
+class subClass extends SuperClass{
+	protected int b = 30, c = 40;
+
+	@Override
+	public void write() {
+		System.out.println("Sub class write() ...");
+		System.out.println("a: "+ a + ", b : " + b + " , c: " + c);
+	}
+	
+	
+}
+
+public class Test4 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

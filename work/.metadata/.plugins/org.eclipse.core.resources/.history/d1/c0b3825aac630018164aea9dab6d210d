@@ -1,0 +1,26 @@
+package com.class5;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		/*
+		 * int a;
+		 * double b;
+		 * a = 10;
+		 * 
+		 * b = a;  가능 ( 암시적 형변환 )
+		 * 
+		 * b = (double) a; (명시적 형변환)
+		 * 
+		 * a = b;        (x)
+		 * a = (int) b;  (o)
+		 * ---------------------------------------
+		 * 부모(b) - 자식(a)
+		 * 
+		 * 부모 = 자식;         (o)   UPCAST
+		 * 부모 = (부모) 자식;  (o)
+		 */
+	}
+
+}

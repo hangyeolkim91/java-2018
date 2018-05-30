@@ -1,0 +1,10 @@
+package com.class5;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+
+		//  오늘로 부터 x일 후를 년 월 일 요일 로 출력
+	}
+
+}
