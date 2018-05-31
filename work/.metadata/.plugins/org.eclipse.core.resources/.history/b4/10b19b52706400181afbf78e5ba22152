@@ -1,0 +1,17 @@
+package com.class6;
+
+class TestA{
+	
+	public void print(){
+		System.out.println("AÅ¬·¡½º...");
+	}
+}
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

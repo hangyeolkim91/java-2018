@@ -1,0 +1,22 @@
+package com.class6;
+
+interface FruitA{
+	
+	String Won = "¿ø";
+	
+	public  int getPrice();
+	public String getName();
+}
+
+interface ItemFruit extends FruitA{
+	
+	public String getItems();
+}
+
+public class Test5 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

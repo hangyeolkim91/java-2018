@@ -1,0 +1,16 @@
+package com.class6;
+
+/*
+ *  Interface
+ *  1. 추상 클래스의 일종 선언만 있고 정의(내용)이 없다.
+ *  
+ */
+
+
+public class Test3 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

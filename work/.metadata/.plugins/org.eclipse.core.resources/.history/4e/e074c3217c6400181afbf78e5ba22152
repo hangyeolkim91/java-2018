@@ -1,0 +1,36 @@
+package com.class6;
+
+interface Test{
+	
+	public int total();
+	public void write();
+	
+}
+
+class TestImpl implements Test{
+
+	private String grade,name;
+	private int kor, eng;
+	
+	public TestImpl(){
+		
+	}
+	
+	@Override
+	public int total() {
+		return 0;
+	}
+
+	@Override
+	public void write() {
+	}
+	
+}
+
+public class Tset4 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
